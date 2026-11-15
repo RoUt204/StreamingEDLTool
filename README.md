@@ -78,23 +78,23 @@ Follow these steps to get the project running:
 
 ## Commands - v1.1
 
-  exit                                                                        - Quit
-  help                                                                        - Show this help
-  load -f <file> -n (newline)                                                 - Load a HEX/MBN/ELF programmer file
-  raw <bytes in HEX>                                                          - Send RAW hex bytes to device
-  nop                                                                         - Ask what device is doing (NOP)
-  hello                                                                       - Get hello response
-  bypass                                                                      - Bypass security
-  close                                                                       - Close after init storage
-  reboot                                                                      - Reboot phone
-  initstorage                                                                 - Open eMMC card
-  getstorageinfo                                                              - Get eMMC information
-  readpartitiontable                                                          - Read partition table (short)
-  readfullpartitiontable                                                      - Read partition table (all fields)
-  read  -s <start_sector> -l <length> | -p <partition> -f <file> -n (newline) - Read from eMMC
-  readhex -s <start_sector> -l <length> | -p <partition> [-l <length>]        - Read from eMMC and print as HEX
-  write -s <start_sector> | -p <partition> -f <file> -n (newline)             - Write data to eMMC
-  erase -s <start_sector> -l <length> | -p <partition> -n (newline)           - Write 00 to eMMC
-  eraseall                                                                    - Erase all eMMC (CMD38)
-  storagetest -s <start_sector> -l <length> | -p <partition> -n (newline)     - Write random data to eMMC and verify it
-  safestoragetest -s <start_sector> -l <length> | -p <partition> -n (newline) - Same, then restore the original data
+-  exit                                                                        - Quit
+-  help                                                                        - Show this help
+-  load -f <file> -n (newline)                                                 - Load a HEX/MBN/ELF programmer file
+-  raw <bytes in HEX>                                                          - Send RAW hex bytes to device
+-  nop                                                                         - Ask what device is doing (NOP)
+-  hello                                                                       - Get hello response
+-  bypass                                                                      - Bypass security
+-  close                                                                       - Close after init storage
+-  reboot                                                                      - Reboot phone
+-  initstorage                                                                 - Open eMMC card
+-  getstorageinfo                                                              - Get eMMC information
+-  readpartitiontable                                                          - Read partition table (short)
+-  readfullpartitiontable                                                      - Read partition table (all fields)
+-  read  -s <start_sector> -l <length> | -p <partition> -f <file> -n (newline) - Read from eMMC
+-  readhex -s <start_sector> -l <length> | -p <partition> [-l <length>]        - Read from eMMC and print as HEX
+-  write -s <start_sector> | -p <partition> -f <file> -n (newline)             - Write data to eMMC
+-  erase -s <start_sector> -l <length> | -p <partition> -n (newline)           - Write 00 to eMMC
+-  eraseall                                                                    - Erase all eMMC (CMD38)
+-  storagetest -s <start_sector> -l <length> | -p <partition> -n (newline)     - Write random data to eMMC and verify it
+-  safestoragetest -s <start_sector> -l <length> | -p <partition> -n (newline) - Same, then restore the original data
